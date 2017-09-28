@@ -24,9 +24,9 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  //var addedFirstKitten = kittens.unshift(name);
-  //return addedFirstKitten;
-  return kittens.splice(0,0,name);
+  var addedFirstKitten = kittens.unshift(name);
+  return addedFirstKitten;
+  //return kittens.splice(0,0,name);
 }
 
 function removeLastKitten() {
